@@ -6,7 +6,7 @@ Authors@R: c(
     person("Bernhard", "Klar ", , "bernhard.klar@kit.edu", role = c("aut", "cre")),
     person("Hajo", "Holzmann", , "holzmann@mathematik.uni-marburg.de", role = c("aut"))
     )
-Maintainer: Bernhard Klar <bernhard.blar@kit.edu>
+Maintainer: Bernhard Klar <bernhard.klar@kit.edu>
 Description: Calculates robust MCC and robust F-Beta Score. 
     These performance metrics are designed for imbalanced classification problems.
     Plot of ROC curve together with recall / 1-precision curve.
