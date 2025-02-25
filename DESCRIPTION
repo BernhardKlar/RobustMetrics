@@ -1,0 +1,16 @@
+Package: RobustMetrics
+Type: Package
+Title: Calculates robust performance metrics for imbalanced classification problems
+Version: 0.1.0
+Authors@R: c(
+    person("Bernhard", "Klar ", , "bernhard.klar@kit.edu", role = c("aut", "cre")),
+    person("Hajo", "Holzmann", , "holzmann@mathematik.uni-marburg.de", role = c("aut"))
+    )
+Maintainer: Bernhard Klar <bernhard.blar@kit.edu>
+Description: Calculates robust MCC and robust F-Beta Score. 
+    These performance metrics are designed for imbalanced classification problems.
+    Plot of ROC curve together with recall / 1-precision curve.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
