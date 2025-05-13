@@ -1,6 +1,6 @@
 #' Robust Matthews correlation coefficient
 #'
-#' Compute a robust version of Matthews correlation coefficient (MCC)
+#' Compute a robust version of Matthews correlation coefficient (MCC).
 #'
 #' @param actual	A vector of actual values (1/0 or TRUE/FALSE)
 #' @param predicted A vector of prediction values (1/0 or TRUE/FALSE)
@@ -12,14 +12,14 @@
 #'
 #' @details
 #' Calculate the robust MCC.
-#' Provide either
+#' Provide either:
 #' * `actual` and `predicted` or
-#' * `TP`, `FN`, `FP` and `TN`
+#' * `TP`, `FN`, `FP` and `TN`.
 #'
 #' If \eqn{d=0}, the robust MCC coincides with the MCC.
 #' @md
 #'
-#' @return robust MCC
+#' @return robust MCC.
 #'
 #' @references
 #' Holzmann, H., Klar, B. (2024). Robust performance metrics for imbalanced classification problems.

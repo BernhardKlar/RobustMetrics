@@ -36,17 +36,17 @@ robFScore2(
 \item{c}{Additional parameter in numerator}
 }
 \value{
-robust F-Beta Score with two additional parameters
+robust F-Beta Score with two additional parameters.
 }
 \description{
-Compute a robust version of the F-Beta Score with two additional parameters
+Compute a robust version of the F-Beta Score with two additional parameters.
 }
 \details{
 Calculate the robust F-Beta Score \eqn{F_{rb}} with two additional parameters.
-Provide either
+Provide either:
 \itemize{
 \item \code{actual} and \code{predicted} or
-\item \code{TP}, \code{FN}, \code{FP} and \code{TN}
+\item \code{TP}, \code{FN}, \code{FP} and \code{TN}.
 }
 
 If \eqn{d_1=\beta^2, d_0=c=0}, the robust F-Beta Score coincides with the F-Beta Score.

@@ -30,17 +30,17 @@ robMCC(
 \item{d}{Parameter of the robust MCC}
 }
 \value{
-robust MCC
+robust MCC.
 }
 \description{
-Compute a robust version of Matthews correlation coefficient (MCC)
+Compute a robust version of Matthews correlation coefficient (MCC).
 }
 \details{
 Calculate the robust MCC.
-Provide either
+Provide either:
 \itemize{
 \item \code{actual} and \code{predicted} or
-\item \code{TP}, \code{FN}, \code{FP} and \code{TN}
+\item \code{TP}, \code{FN}, \code{FP} and \code{TN}.
 }
 
 If \eqn{d=0}, the robust MCC coincides with the MCC.

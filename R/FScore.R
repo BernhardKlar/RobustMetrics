@@ -1,6 +1,6 @@
 #' F-Beta Score
 #'
-#' Compute the F-Beta Score
+#' Compute the F-Beta Score.
 #'
 #' @param actual	A vector of actual values (1/0 or TRUE/FALSE)
 #' @param predicted A vector of prediction values (1/0 or TRUE/FALSE)
@@ -11,12 +11,12 @@
 #' @param beta Beta squared is the weight of recall in harmonic mean
 #'
 #' @details
-#' Calculate the F-Beta Score. Provide either
+#' Calculate the F-Beta Score. Provide either:
 #' * `actual` and `predicted` or
-#' * `TP`, `FN`, `FP` and `TN`
+#' * `TP`, `FN`, `FP` and `TN`. 
 #' @md
 #'
-#' @return F-Beta Score
+#' @return F-Beta Score.
 #'
 #' @references
 #' Holzmann, H., Klar, B. (2024). Robust performance metrics for imbalanced classification problems.

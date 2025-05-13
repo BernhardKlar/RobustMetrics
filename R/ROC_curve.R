@@ -1,6 +1,6 @@
 #' ROC curve
 #'
-#' Plot ROC curve together with recall / 1-precision curve
+#' Plot ROC curve together with recall / 1-precision curve.
 #'
 #' @param actual	A vector of actual values (1/0 or TRUE/FALSE)
 #' @param predicted A vector of predicted probabilities (numeric values in \eqn{[0,1]})
@@ -14,7 +14,7 @@
 #' black symbols show points optimal with respect to the robust MCC for different values of d.
 #' @md
 #'
-#' @return ROC curve
+#' @return ROC curve.
 #'
 #' @references
 #' Holzmann, H., Klar, B. (2024). Robust performance metrics for imbalanced classification problems.
@@ -44,7 +44,7 @@ ROC_curve <- function(actual, predicted, d = c(0.01,0.05,0.1,0.5)) {
   }
 
   n <- length(actual)
-  n1 <- length( actual[actual==1] )
+  n1 <- sum(actual)
   n0 <- n-n1
   pr <- n1/n
 

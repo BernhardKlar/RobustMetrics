@@ -12,7 +12,7 @@ A data frame with 2 columns:
 }
 }
 \source{
-Full test data set using random forest classifier, see Section 6 in Referenz.
+Full test data set using random forest classifier, see Section 6 in Reference.
 }
 \usage{
 rf.data
