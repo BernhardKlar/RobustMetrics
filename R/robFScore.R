@@ -1,6 +1,6 @@
 #' Robust F-Beta Score
 #'
-#' Compute a robust version of the F-Beta Score
+#' Compute a robust version of the F-Beta Score. 
 #'
 #' @param actual	A vector of actual values (1/0 or TRUE/FALSE)
 #' @param predicted A vector of prediction values (1/0 or TRUE/FALSE)
@@ -13,14 +13,14 @@
 #'
 #' @details
 #' Calculate the robust F-Beta Score \eqn{F_{\beta,d_0}} with two parameters.
-#' Provide either
+#' Provide either:
 #' * `actual` and `predicted` or
-#' * `TP`, `FN`, `FP` and `TN`
+#' * `TP`, `FN`, `FP` and `TN`. 
 #'
 #' If \eqn{d_0=0}, the robust F-Beta Score coincides with the F-Beta Score.
 #' @md
 #'
-#' @return robust F-Beta Score
+#' @return robust F-Beta Score.
 #'
 #' @references
 #' Holzmann, H., Klar, B. (2024). Robust performance metrics for imbalanced classification problems.

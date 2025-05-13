@@ -1,6 +1,6 @@
 #' Matthews correlation coefficient
 #'
-#' Compute Matthews correlation coefficient
+#' Compute Matthews correlation coefficient. 
 #'
 #' @param actual	A vector of actual values (1/0 or TRUE/FALSE)
 #' @param predicted A vector of prediction values (1/0 or TRUE/FALSE)
@@ -11,12 +11,12 @@
 #'
 #' @details
 #' Calculate Matthews correlation coefficient.
-#' Provide either
+#' Provide either:
 #' * `actual` and `predicted` or
-#' * `TP`, `FN`, `FP` and `TN`
+#' * `TP`, `FN`, `FP` and `TN`. 
 #' @md
 #'
-#' @return Matthews correlation coefficient
+#' @return Matthews correlation coefficient.
 #'
 #' @references
 #' Holzmann, H., Klar, B. (2024). Robust performance metrics for imbalanced classification problems.

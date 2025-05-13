@@ -1,13 +1,13 @@
 #' Example Random Forest Data
 #'
-#' This dataset contains example data from a Random Forest model.
+#' This dataset contains example data from a Random Forest model. 
 #'
 #' @format A data frame with 2 columns:
 #' \describe{
 #'   \item{actual}{Actual values}
 #'   \item{predicted}{Predicted probabilities}
 #' }
-#' @source Full test data set using random forest classifier, see Section 6 in Referenz.
+#' @source Full test data set using random forest classifier, see Section 6 in Reference.
 #'
 #' @references
 #' Holzmann, H., Klar, B. (2024). Robust performance metrics for imbalanced classification problems.

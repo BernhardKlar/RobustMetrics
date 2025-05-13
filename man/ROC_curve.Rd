@@ -14,10 +14,10 @@ ROC_curve(actual, predicted, d = c(0.01, 0.05, 0.1, 0.5))
 \item{d}{A vector of length 4}
 }
 \value{
-ROC curve
+ROC curve.
 }
 \description{
-Plot ROC curve together with recall / 1-precision curve
+Plot ROC curve together with recall / 1-precision curve.
 }
 \details{
 Instead of a precision-recall curve, a recall / 1-precision curve is plotted

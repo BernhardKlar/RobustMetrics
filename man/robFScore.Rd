@@ -33,17 +33,17 @@ robFScore(
 \item{d0}{Weight of the estimated true positive probability in the harmonic mean}
 }
 \value{
-robust F-Beta Score
+robust F-Beta Score.
 }
 \description{
-Compute a robust version of the F-Beta Score
+Compute a robust version of the F-Beta Score.
 }
 \details{
 Calculate the robust F-Beta Score \eqn{F_{\beta,d_0}} with two parameters.
-Provide either
+Provide either:
 \itemize{
 \item \code{actual} and \code{predicted} or
-\item \code{TP}, \code{FN}, \code{FP} and \code{TN}
+\item \code{TP}, \code{FN}, \code{FP} and \code{TN}.
 }
 
 If \eqn{d_0=0}, the robust F-Beta Score coincides with the F-Beta Score.

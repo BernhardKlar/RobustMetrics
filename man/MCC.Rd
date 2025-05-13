@@ -27,17 +27,17 @@ MCC(
 \item{TN}{Count of true negatives (correctly predicted 0/FALSE)}
 }
 \value{
-Matthews correlation coefficient
+Matthews correlation coefficient.
 }
 \description{
-Compute Matthews correlation coefficient
+Compute Matthews correlation coefficient.
 }
 \details{
 Calculate Matthews correlation coefficient.
-Provide either
+Provide either:
 \itemize{
 \item \code{actual} and \code{predicted} or
-\item \code{TP}, \code{FN}, \code{FP} and \code{TN}
+\item \code{TP}, \code{FN}, \code{FP} and \code{TN}.
 }
 }
 \examples{

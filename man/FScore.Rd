@@ -30,16 +30,16 @@ FScore(
 \item{beta}{Beta squared is the weight of recall in harmonic mean}
 }
 \value{
-F-Beta Score
+F-Beta Score.
 }
 \description{
-Compute the F-Beta Score
+Compute the F-Beta Score.
 }
 \details{
-Calculate the F-Beta Score. Provide either
+Calculate the F-Beta Score. Provide either:
 \itemize{
 \item \code{actual} and \code{predicted} or
-\item \code{TP}, \code{FN}, \code{FP} and \code{TN}
+\item \code{TP}, \code{FN}, \code{FP} and \code{TN}.
 }
 }
 \examples{
