@@ -73,6 +73,8 @@ ROC_curve <- function(actual, predicted, d = c(0.01,0.05,0.1,0.5)) {
 
   # plot ROC curve, i.e. i.e. TPR-FPR curve
   tpr.fpr <- cbind( 1-cond.prop[,2], cond.prop[,1])
+  oldpar <- par(no.readonly = TRUE) 
+  on.exit(par(oldpar))
   par(mar=c(5,4,1,2), mfcol=c(1,1), pty="s")
   plot( tpr.fpr, type="n", xlim=c(0,1), ylim=c(0,1), xaxs="i", yaxs="i",
         lwd=3, xlab="FPR / 1-precision", ylab="TPR")
