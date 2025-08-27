@@ -7,9 +7,9 @@ Authors@R: c(
     person("Hajo", "Holzmann", , "holzmann@mathematik.uni-marburg.de", role = c("aut"))
     )
 Maintainer: Bernhard Klar <bernhard.klar@kit.edu>
-Description: Calculates robust MCC and robust F-Beta Scores, as introduced by Holzmann and Klar (2024) <doi:10.48550/arXiv.2404.07661>. 
+Description: Calculates robust Matthews Correlation Coefficient (MCC) and robust F-Beta Scores, as introduced by Holzmann and Klar (2024) <doi:10.48550/arXiv.2404.07661>. 
     These performance metrics are designed for imbalanced classification problems.
-    Plots the ROC curve together with the recall / 1-precision curve.
+    Plots the receiver operating characteristic curve (ROC curve) together with the recall / 1-precision curve.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
