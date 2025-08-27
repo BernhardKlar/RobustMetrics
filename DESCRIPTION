@@ -1,7 +1,7 @@
 Package: RobustMetrics
 Type: Package
 Title: Calculates Robust Performance Metrics for Imbalanced Classification Problems
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
     person("Bernhard", "Klar ", , "bernhard.klar@kit.edu", role = c("aut", "cre")),
     person("Hajo", "Holzmann", , "holzmann@mathematik.uni-marburg.de", role = c("aut"))
